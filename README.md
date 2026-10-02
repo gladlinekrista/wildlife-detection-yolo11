@@ -1,4 +1,4 @@
-# 🐘🐗🐕 Wildlife Detection: Multi-Class YOLO11 Pipeline
+# Wildlife Detection: Multi-Class YOLO11 Pipeline
 
 A local, GPU-accelerated object-detection pipeline that detects and classifies **elephants, wild boars, and street dogs** in images and video, using a fine-tuned YOLO11 model and an OpenCV video-inference loop.
 
@@ -44,8 +44,7 @@ flowchart TD
 > **Note on the summary:** counts are *detections across sampled frames*, not the number of animals. One elephant visible for 100 frames contributes many detections.
 
 ## My contribution
-> **[Confirm and edit]**: dataset class alignment, fine-tuning, and the OpenCV inference pipeline. *Add dataset sources and what you annotated vs. sourced.*
-
+>Worked on a Kerala wildlife detection project using YOLO11. Collected and Prepared the dataset by organizing images into train, validation, and test sets, and developed a script to take a video as input, run YOLO11 detection on the video frames, and generate an annotated output video with the detected wildlife and bounding boxes.
 ## Results
 
 | Metric | Value |
